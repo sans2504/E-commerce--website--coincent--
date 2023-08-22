@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ecommerce Website Pjct</title>
+  <script src="https://kit.fontawesome.com/6060174a46.js" crossorigin="anonymous"></script>
+
+    <!-- customised css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  
+  <section id="header">
+    <a href="#"><img src="img/logo.png" class="logo" alt=""</a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="clicked" href="contact.html">Contact</a></li>
+        <li id="cart-resp"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <a href="#" id="close"><i class = "fa-solid fa-circle-xmark"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+      <i id="bar" class="fa-solid fa-bars"></i>
+    </div>
+  </section>
+
+  <section id="p-header" class="a-header">
+    <h2>Hit us up</h2>
+    <p>Your thoughts matter!</p>
+  </section>
+
+  <section id="contact-details" class="section-p1">
+    <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit us</h2>
+        <h3>Head office</h3>
+        <div>
+            <li>
+                <i class="fa-solid fa-map"></i>
+                <p>248005 GTM Mohkampur Dehradun</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-envelope"></i>
+                <p>navendubahukhandi12@gmail.com</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone-alt"></i>
+                <p>9711046872</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-clock"></i>
+                <p>Monday to Saturday: 09:00am to 16:00pm</p>
+            </li>
+        </div>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3445.7501047276555!2d78.0798126!3d30.2727006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390928c45c65edab%3A0x4fd3208f2eeae96!2sGTM%20Forest%20Apartments%2C%20IIP%2C%20Mohkampur%2C%20Dehradun%2C%20Uttarakhand%20248005!5e0!3m2!1sen!2sin!4v1672508321201!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <section id="form-details">
+    <form onsubmit="return validation()" name="form-google-sheet" method="post">
+      <span>LEAVE A MESSAGE</span>
+      <h2>We need your word</h2>
+      <label for="name" class="form-label">Name</label>
+      <input type="text" name="Name" id="name" class="form-label" placeholder="Name">
+      <div id="error-name" class="error-msg"></div>
+      <label for="email">E-mail</label>
+      <input type="email" name="Email" id="email" class="form-label" placeholder="E-mail">
+      <div id="error-email" class="error-msg"></div>
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" class="form-label" placeholder="Subject">
+      <div id="error-subject" class="error-msg"></div>
+      <label for="number">Number</label>
+      <input type="number" name="number" id="number" class="form-label" placeholder="Number">
+      <div id="error-number" class="error-msg"></div>
+      <label for="comments" class="form-label">Comments</label>
+      <textarea name="Comments" id="comments" cols="30" rows="10" placeholder="Your message"></textarea>
+      <button type="submit" class="normal">Submit</button>
+  </form>
+
+    <div class="members">
+        <div>
+            <img src="img/people/1.png" alt="">
+            <p><span>Jhon Doe</span> Senior Marketing Manager <br> Phone : +919711046872 </br> Email: navendubahukhandi12@gmail.com</p>
+        </div>
+        <div>
+            <img src="img/people/2.png" alt="">
+            <p><span>Jhon Doe</span> Senior Marketing Manager <br> Phone : +919711046872 </br> Email: navendubahukhandi12@gmail.com</p>
+        </div>
+        <div>
+            <img src="img/people/3.png" alt="">
+            <p><span>Jhon Doe</span> Senior Marketing Manager <br> Phone : +919711046872 </br> Email: navendubahukhandi12@gmail.com</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="section-p1" class="section-m1">
+    <div class="newstext">
+      <h4>Sign up for Newsletters</h4>
+      <p>Keep up to date on Orion's <span>next collection!</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="email address">
+      <button class="normal">Sign up</button>
+    </div>
+  </section>
+
+  <footer class="section-p1"> 
+    <div class="col">
+      <img src="img/logo.png" class="logo" alt="">
+      <h4>Contact</h4>
+      <p><strong>Address: </strong> 248005 GTM Forest Hills Mohkampur Dehradun</p>
+      <p><strong>Phone: </strong> +919711046872</p>
+      <p><strong>Hours :</strong> 09:00 - 18:00, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">About us</a>
+      <a href="#">Delivery Information</a>
+      <a href="#">Privacy Policy</a>
+      <a href="contact.html">Contact us</a>
+      <a href="#">Terms and Conditions</a>
+    </div>
+
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="shop.html">Billing Address</a>
+      <a href="cart.html">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track my order</a>
+      <a href="contact.html">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="">
+        <img src="img/pay/play.jpg" alt="">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="img/pay/pay.png" alt="">
+    </div>
+
+    <div class="copyright">
+      <p>© 2022, Navendu Bahukhandi - Coincent Project</p>
+    </div>
+  </footer>
+      
+  <!-- jquery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- owl carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+$('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+        0: {
+            items: 1,
+            nav: true
+        },
+        600: {
+            items: 1,
+            nav: true
+        },
+        1000: {
+            items: 3,
+            nav: true,
+            loop: false
+        }
+    }
+})
+</script>
+<script src="edit.js"></script>
+</body>
+
+</html>
